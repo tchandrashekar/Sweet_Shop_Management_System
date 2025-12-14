@@ -15,5 +15,5 @@ public interface SweetRepository extends JpaRepository<Sweet,Long>{
 
     // Search by price range
     List<Sweet> findByPriceBetween(double min, double max);
-
+    
 }

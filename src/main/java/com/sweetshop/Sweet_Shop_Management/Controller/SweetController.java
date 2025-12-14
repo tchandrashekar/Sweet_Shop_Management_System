@@ -21,8 +21,9 @@ public class SweetController {
     }
 
      // ADD SWEET
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping
-    public Sweet addSweet(@RequestBody Sweet sweet) {
+    public Sweet addSweet(@RequestBody @Valid Sweet sweet) {
         return sweetService.addSweet(sweet);
     }
 
