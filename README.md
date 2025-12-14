@@ -63,12 +63,19 @@ USER: View sweets and purchase sweets
 com.sweetshop.Sweet_Shop_Management
 │
 ├── Config          → Security & CORS configuration
+
 ├── Controller      → REST Controllers
+
 ├── Service         → Business logic
+
 ├── Repository      → JPA Repositories
+
 ├── Entity          → Database entities
+
 ├── DTO             → Request & Response objects
+
 ├── Exception       → Custom exception handling
+
 └── SweetShopApplication.java
 
 **🔗 API Endpoints**
